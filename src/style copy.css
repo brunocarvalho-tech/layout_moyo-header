@@ -1,0 +1,58 @@
+:root {
+  --cor-links: #00acdc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lista {
+  margin-left: 10px;
+  justify-content: flex-end;
+  list-style: none;
+  display: flex;
+}
+
+.lista li {
+  margin: 0 10px;
+  color: black;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  justify-content: space-between;
+  margin: 10px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.lista :hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+  color: var(--cor-links);
+}
+
+.menu {
+  display: flex;
+  height: 60px;
+  width: 1200px;
+}
