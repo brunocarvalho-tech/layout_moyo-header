@@ -41,12 +41,17 @@
 
 .lista {
   list-style: none;
-  height: 40px;
-
-  /* margin-right: 20px; */
 }
 
-.lista > li {
+.header__link {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__item {
+  height: 40px;
   display: flex;
   list-style: none;
   text-decoration: none;

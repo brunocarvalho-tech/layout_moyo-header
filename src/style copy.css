@@ -45,7 +45,7 @@ a {
   align-items: center;
 }
 
-.lista :hover {
+.lista a:hover {
   text-decoration: underline;
   text-decoration-color: blue;
   color: var(--cor-links);
